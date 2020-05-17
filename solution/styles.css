@@ -5,17 +5,21 @@ h1{
 	text-align: center;
 	font-style: italic;
 	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 60px;
 }
 @media(min-width: 992px){
 	.s1,.s2,.s3{
-		width: 25%;
+		width: 31%;
+		height: 50%;
 		background-color: grey;
-		padding: 10px 10px 10px 10px;
+		padding: 0px 0px 10px 10px;
 		border: 1px solid black;
-		margin: 5px 5px 5px 5px;
+		margin: 10px 15px 10px 15px;
+		float: left;
 	}
 	.chick,.beef,.sushi{
-		width: 100%;
+		width: 30%;
 		float : right;
 		font-style: italic;
 		font-weight: bold;
@@ -25,6 +29,8 @@ h1{
 		overflow: auto;
 		margin-top: 0;
 		margin-right: 0;
+		position: relative;
+		clear: left;
 	}
 	.chick{
 		background-color: pink;
@@ -35,4 +41,16 @@ h1{
 	.sushi{
 		background-color: yellow;
 	}
+	.ch,.be,.su{
+		width : 90%;
+		height: 150px;
+		padding: 1px 1px 1px 1px;
+		border: 0;
+		font-style: italic;
+		clear : right;
+	}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	
 }
