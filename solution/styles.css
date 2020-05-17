@@ -16,13 +16,15 @@ h1{
 		position: relative;
 	}
 	.chick,.beef,.sushi{
-		width: 30%;
+		width: 50%;
 		float : top right;
 		font-style: italic;
 		font-weight: bold;
 		text-align: center;
-		padding: 5px 5px 5px 5px;
+		padding: 0;
 		border: 1px solid black;
+		overflow: auto;
+		margin-top: 0;
 	}
 	.chick{
 		background-color: pink;
