@@ -16,7 +16,7 @@ h1{
 		position: relative;
 	}
 	.chick,.beef,.sushi{
-		width: 200%;
+		width: 100%;
 		float : right;
 		font-style: italic;
 		font-weight: bold;
