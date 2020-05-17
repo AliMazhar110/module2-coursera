@@ -1,4 +1,17 @@
+*{
+	box-sizing: border-box;
+}
 h1{
-	color : blue;
-	font-size: 150%;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+@media(min-width: 992px){
+	.s1,.s2,.s3{
+		width: 25%;
+		background-color: grey;
+		padding:  5px 5px 5px 5px;
+		border: 1px solid black;
+		margin: 5px 5px 5px 5px;
+	}
 }
