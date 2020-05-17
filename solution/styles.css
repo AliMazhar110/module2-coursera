@@ -16,12 +16,12 @@ h1{
 		position: relative;
 	}
 	.chick,.beef,.sushi{
-		width: 50%;
-		float : top right;
+		width: 200%;
+		float : right;
 		font-style: italic;
 		font-weight: bold;
 		text-align: center;
-		padding: 0;
+		padding: 1px 1px 1px 1px;
 		border: 1px solid black;
 		overflow: auto;
 		margin-top: 0;
