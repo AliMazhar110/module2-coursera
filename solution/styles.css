@@ -10,13 +10,14 @@ h1{
 }
 @media(min-width: 992px){
 	.s1,.s2,.s3{
-		width: 31%;
+		width: 30%;
 		height: 50%;
 		background-color: grey;
 		padding: 0px 0px 10px 10px;
 		border: 1px solid black;
 		margin: 10px 15px 10px 15px;
 		float: left;
+		text-align: center;
 	}
 	.chick,.beef,.sushi{
 		width: 30%;
@@ -43,7 +44,7 @@ h1{
 	}
 	.ch,.be,.su{
 		width : 90%;
-		height: 150px;
+		height: 90%;
 		padding: 1px 1px 1px 1px;
 		border: 0;
 		font-style: italic;
@@ -52,5 +53,98 @@ h1{
 
 }
 @media(min-width: 768px) and (max-width: 991px){
+	.s1,.s2{
+		width: 45%;
+		height: 50%;
+		background-color: grey;
+		padding: 0px 0px 10px 10px;
+		border: 1px solid black;
+		margin: 10px 15px 10px 15px;
+		float: left;
+		text-align: center;
+	}
+	.s3{
+		width: 93%;
+		height: 50%;
+		background-color: grey;
+		padding: 0px 0px 10px 10px;
+		border: 1px solid black;
+		margin: 10px 15px 10px 15px;
+		clear: left;
+		text-align: center;
+	}
 	
+	.chick,.beef,.sushi{
+		width: 30%;
+		float : right;
+		font-style: italic;
+		font-weight: bold;
+		text-align: center;
+		padding: 1px 1px 1px 1px;
+		border: 1px solid black;
+		overflow: auto;
+		margin-top: 0;
+		margin-right: 0;
+		position: relative;
+		clear: left;
+	}
+	.chick{
+		background-color: pink;
+	}
+	.beef{
+		background-color: maroon;
+	}
+	.sushi{
+		background-color: yellow;
+	}
+	.ch,.be,.su{
+		width : 90%;
+		height: 90%;
+		padding: 1px 1px 1px 1px;
+		border: 0;
+		font-style: italic;
+		clear : right;
+	}
+}
+@media(max-width: 767px){
+	.s1,.s2,.s3{
+		width: 95%;
+		height: 50%;
+		background-color: grey;
+		padding: 0px 0px 10px 10px;
+		border: 1px solid black;
+		margin: 10px 10px 10px 10px;
+		text-align: center;
+	}
+	.chick,.beef,.sushi{
+		width: 30%;
+		float : right;
+		font-style: italic;
+		font-weight: bold;
+		text-align: center;
+		padding: 1px 1px 1px 1px;
+		border: 1px solid black;
+		overflow: auto;
+		margin-top: 0;
+		margin-right: 0;
+		position: relative;
+		clear: left;
+	}
+	.chick{
+		background-color: pink;
+	}
+	.beef{
+		background-color: maroon;
+	}
+	.sushi{
+		background-color: yellow;
+	}
+	.ch,.be,.su{
+		width : 90%;
+		height: 90%;
+		padding: 1px 1px 1px 1px;
+		border: 0;
+		font-style: italic;
+		clear : right;
+	}
 }
