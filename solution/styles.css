@@ -17,6 +17,7 @@ h1{
 		border: 1px solid black;
 		margin: 10px 15px 10px 15px;
 		float: left;
+		text-align: left;
 	}
 	.chick,.beef,.sushi{
 		width: 30%;
@@ -60,6 +61,7 @@ h1{
 		border: 1px solid black;
 		margin: 10px 15px 10px 15px;
 		float: left;
+		text-align: left;
 	}
 	.s3{
 		width: 93%;
@@ -69,6 +71,7 @@ h1{
 		border: 1px solid black;
 		margin: 10px 15px 10px 15px;
 		clear: left;
+		text-align: left;
 	}
 	
 	.chick,.beef,.sushi{
@@ -110,7 +113,8 @@ h1{
 		background-color: grey;
 		padding: 0px 0px 10px 10px;
 		border: 1px solid black;
-		margin: 10px 40px 10px 40px;
+		margin: 10px 15px 10px 15px;
+		text-align: left;
 	}
 	.chick,.beef,.sushi{
 		width: 30%;
